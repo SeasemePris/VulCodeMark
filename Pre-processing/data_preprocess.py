@@ -304,7 +304,7 @@ def GetInfor(filename):
 # spilt and zip
 # warning: samples cant be less than 200, otherwise spliting process will occur errors.
 
-#将所有ast以及cdfg数据全部放入test.jsonl.gz 并将test.jsonl.gz复制到train.jsonl.gz和valid.jsonl.gz  predict只输入test.json数据即可
+
 def Split_predict(path):
     print("\nbegin to split files...")
 
